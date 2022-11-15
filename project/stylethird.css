@@ -1,0 +1,254 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+.main {  
+    background-size: cover;;
+    background-image: url(pictures/bgimgthird.svg);
+    background-repeat: no-repeat;
+    height: 263px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.navbar {
+    display: flex;
+    width: 1200px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+    width: 120px;
+    height: 120px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 140px;
+    color: white;
+}
+
+.list_item {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item:hover {
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+.other {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.top-element {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.imgarrfirst {
+    background-color: #8D86C9;
+    width: 40px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.imgarrsec {
+    border-radius: 10px;
+    background-color: #8D86C9;
+    width: 40px;
+    height: 40px;
+}
+
+.pic-cont {
+    position: relative;
+    width: 100%;
+}
+
+.bg-picture {
+    position: relative;
+}
+
+.btn-color {
+    position: absolute;
+    left: 45px;
+    bottom: 45px;
+    background-color: #8D86C9;
+    height: 45px;
+    width: 130px;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.img-cort {
+    width: 450px;
+    height: 450px;
+}
+
+.text-cort {
+    background-color: #F7ECE1;
+    width: 600px;
+    height: 400px;  
+    padding: 120px;
+    margin-left: 20px;    
+}
+
+section {
+    position: relative;
+}
+
+.pic-cort {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    z-index: 1;
+}
+
+.widthbox {
+    width: 100%;
+}
+
+.box {
+    background-color: #F7ECE1;
+    width: 600px;
+    height: 600px;
+    padding: 25px 100px 25px 180px;
+    position: absolute;
+    left: 320px;
+    bottom: -650px;
+    border-radius: 30px;
+}
+
+.sport-club {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50.4px;
+}
+
+.sport_club-text {
+    font-weight: 400;
+    font-style: 14px;
+    line-height: 19.6px;
+}
+
+.num_txt-bold {
+    font-weight: 700;
+    font-style: 14px;
+    line-height: 19.6px;
+}
+
+.num-block {
+    display: flex;
+    margin-top: 50px;
+}
+
+.num-txt {
+    display: flex;
+    align-items: center;
+}
+
+.imgnumb {
+    margin-right: 15px;
+}
+
+.four {
+    margin-left: 20px;
+} 
+
+.about_club-txt {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.footer {
+    background-color: #F7ECE1;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+
+}
+
+.roots {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    color: #333333;
+    font-size: 20px;
+}
+
+.list-foot {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140px;
+}
+
+.list_item-foot {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item-foot:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
+.otherfoot {
+    display: flex;
+    align-items: center;
+}
+
+.mg {
+    margin-left: 10px;
+}
