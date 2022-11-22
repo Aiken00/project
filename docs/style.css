@@ -1,0 +1,2817 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto; 
+    
+}
+img, .list, .list-foot, .arrows, .roots {
+    user-select: none;
+    
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-image: url(./pictures/bgimage.png);
+    background-size: cover;
+    height: 1000px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    max-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.brg-menu {
+    display: none;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 140px;
+    color: white;
+}
+
+.list_item {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item:hover {
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+.other {
+    display: flex;
+    align-items: center;
+}
+
+.blocks {
+    margin-top: 250px;
+}
+
+.text_tennis {
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.block_play {
+    display: flex;
+    margin-top: 50px;
+}
+
+.item_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    margin-top: 250px;
+}
+
+.info_cards {
+    background-color: #8D86C9;
+    width: 315px;
+    height: 150px;
+    font-family: sans-serif;
+    color: white;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 2px 1px #6059a1;
+}
+
+
+.exlink {
+    position: relative;
+    right: -230px;
+    top: -80px;
+}
+
+.inf_text {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.info_inner {
+    margin: 40px;
+}
+
+.cont {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_inner {
+    margin: 10px;
+}
+
+.pos {
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    color:  white;
+    font-family: sans-serif;
+    top: -110px;
+    right: -120px;
+    display: flex;
+    text-align: center;
+}
+
+
+
+.img-cort {
+    width: 450px;
+    height: 450px;
+}
+
+.text-cort {
+    background-color: #F7ECE1;
+    width: 600px;
+    height: 400px;  
+    padding: 120px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+article {
+    margin-top: 100px;
+}
+
+.cardDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic-cort {
+    position: relative;
+    left: 50px;
+}
+
+
+.sport-club {
+    font-family:sans-serif;
+    font-size: 36px;
+    opacity: 0.7;
+    font-weight: 700;
+    line-height: 50.4px;
+}
+
+.sport_club-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19p;
+}
+
+h4 {
+font-size: 21px;
+opacity: 0.7;
+}
+
+.top-element {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.imgarrfirst {
+    background-color: #8D86C9;
+    width: 31px;
+    height: 31px;
+    border-radius: 10px ;
+}
+
+.imgarrsec {
+    border-radius: 10px;
+    background-color: #8D86C9;
+    width: 31px;
+    height: 31px;
+}
+
+.cardcoach_block {
+    display: flex;
+}
+
+.cardcoach {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.coachimg {
+    width: 166px;
+    height: 240px;
+}
+
+.coachname {
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 10px;
+    line-height: 29px;
+}
+
+.aboutcoach {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.price_amenities {
+    display: flex;
+    margin: 10px;
+}
+
+.priceab {
+    margin: 100px 20px 70px 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.buttonpriceab {
+    margin: 20px;
+    padding: 0 30px 0 30px;
+    background-color: #8D86C9;
+    width: 450px;
+    height: 60px;
+    font-size: 21px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.firstrow {
+    font-size: 36px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_amenities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafeblock {
+    position: relative;
+}
+
+.cafeimg {
+    width: 550px;
+    height: 350px;
+}
+
+.cafe-txt {
+    position: absolute;
+    left: 50px;
+    top: 230px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer {
+    
+    background-color: #F7ECE1;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.roots {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    color: #333333;
+    font-size: 20px;
+}
+
+.list-foot {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140px;
+}
+
+.list_item-foot {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item-foot:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
+.otherfoot {
+    display: flex;
+    align-items: center;
+}
+
+.mg {
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 1400px) {
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+img, .list, .footer {
+    user-select: none;
+    
+}
+
+.brg-menu {
+    display: none;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-image: url(./pictures/bgimage.png);
+    background-size: cover;
+    height: 1000px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 970px;
+    max-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+width: 110px;
+height: 150px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    line-height: 140px;
+    color: white;
+}
+
+.list_item {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item:hover {
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+.other {
+    display: none;
+    align-items: center;
+}
+
+.blocks {
+    margin-top: 250px;
+}
+
+.text_tennis {
+    font-size: 35px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.block_play {
+    display: flex;
+    margin-top: 50px;
+}
+
+.item_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    margin-top: 260px;
+}
+
+.info_cards {
+    background-color: #8D86C9;
+    width: 235px;
+    height: 145px;
+    font-family: sans-serif;
+    color: white;
+    margin: 3px;
+    position: relative;
+}
+
+
+.exlink {
+    position: absolute;
+    right: 20px;
+    top: 30px; 
+}
+
+.inf_text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.info_inner {
+    margin: 40px;
+}
+
+.cont {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_inner {
+    margin: 10px;
+}
+
+.imgcnt {
+    width: 275px;
+    height: 350px;
+}
+
+.pos {
+    font-size: 16px;
+    right: -60px;
+}
+
+.img-cort {
+    width: 300px;
+    height: 350px;
+}
+
+.text-cort {
+    background-color: #F7ECE1;
+    width: 500px;
+    height: 400px;  
+    padding: 40px;
+    margin-left: 20px;
+    
+}
+
+article {
+    margin-top: 100px;
+}
+
+.cardDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic-cort {
+    position: relative;
+    left: 50px;
+}
+
+
+.sport-club {
+    font-size: 30px;
+}
+
+.sport_club-text {
+    font-size: 12px;
+}
+
+h4 {
+font-size: 12px;
+}
+
+.top-element {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.imgarrfirst {
+    background-color: #8D86C9;
+    width: 27px;
+    height: 27px;
+}
+
+.imgarrsec {
+    background-color: #8D86C9;
+    width: 27px;
+    height: 27px;
+}
+
+.cardcoach_block {
+    display: flex;
+}
+
+.cardcoach {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.coachimg {
+    width: 120px;
+    height: 190px;
+}
+
+.coachname {
+    font-size: 14px;
+}
+
+.aboutcoach {
+    font-size: 12px;
+}
+
+.price_amenities {
+    display: flex;
+    margin: 10px;
+}
+
+.priceab {
+    margin: 100px 20px 70px 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.buttonpriceab {
+    padding: 0 20px 0 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstrow {
+    font-size: 30px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_amenities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafeblock {
+    position: relative;
+}
+
+.cafeimg {
+    width: 500px;
+    height: 350px;
+}
+
+.cafe-txt {
+    position: absolute;
+    left: 50px;
+    top: 230px;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.footer {
+    
+    background-color: #F7ECE1;
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+}
+
+.roots {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    color: #333333;
+    font-size: 15px;
+}
+
+.list-foot {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 140px;
+}
+
+.list_item-foot {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item-foot:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
+.otherfoot {
+    display: none;
+}
+
+.mg {
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+img, .list, .footer {
+    user-select: none;
+    
+}
+
+.brg-menu {
+    display: none;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-image: url(./pictures/bgimage.png);
+    background-size: cover;
+    /* height: 1000px; */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 762px;
+    max-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+width: 100px;
+height: 110px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    line-height: 140px;
+    color: white;
+}
+
+.list_item {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item:hover {
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+.other {
+    display: none;
+    align-items: center;
+}
+
+.blocks {
+    margin-top: 250px;
+}
+
+.text_tennis {
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.block_play {
+    display: flex;
+    margin-top: 50px;
+}
+
+.item_firt {
+width: 80px;
+height: 80px;
+}
+
+.item_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    margin-top: 260px;
+}
+
+.info_cards {
+    background-color: #8D86C9;
+    width: 235px;
+    height: 145px;
+    font-family: sans-serif;
+    color: white;
+    margin: 3px;
+    position: relative;
+}
+
+
+.exlink {
+    position: absolute;
+    right: 20px;
+    top: 30px; 
+}
+
+.inf_text {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.info_inner {
+    margin: 40px;
+}
+
+.cont {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_inner {
+    margin: 10px;
+}
+
+.imgcnt {
+    width: 225px;
+    height: 300px;
+}
+
+.pos {
+    font-size: 14px;
+    right: -50px;
+}
+
+.img-cort {
+    width: 290px;
+    height: 340px;
+}
+
+.text-cort {
+    background-color: #F7ECE1;
+    width: 450px;
+    height: 350px;  
+    padding: 40px;
+    margin-left: 20px;
+    
+}
+
+article {
+    margin-top: 100px;
+}
+
+.cardDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic-cort {
+    position: relative;
+    left: 50px;
+}
+
+
+.sport-club {
+    font-size: 22px;
+}
+
+.sport_club-text {
+    font-size: 12px;
+}
+
+h4 {
+font-size: 13px;
+}
+
+.textlb {
+    font-size: 12px;
+}
+
+.top-element {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.imgarrfirst {
+    background-color: #8D86C9;
+    width: 23px;
+    height: 23px;
+}
+
+.imgarrsec {
+    background-color: #8D86C9;
+    width: 23px;
+    height: 23px;
+}
+
+.cardcoach_block {
+    display: flex;
+}
+
+.cardcoach {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.coachimg {
+    width: 100px;
+    height: 170px;
+}
+
+.coachname {
+    font-size: 12px;
+}
+
+.aboutcoach {
+    font-size: 12px;
+}
+
+.price_amenities {
+    display: flex;
+}
+
+.priceab {
+    margin: 100px 20px 70px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buttonpriceab {
+    padding: 0 10px 0 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstrow {
+    font-size: 20px;
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_amenities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafeblock {
+    position: relative;
+}
+
+.cafeimg {
+    width: 350px;
+    height: 367px;
+}
+
+.cafe-txt {
+    position: absolute;
+    left: 25px;
+    top: 215px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.footer {
+    
+    background-color: #F7ECE1;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.roots {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    color: #333333;
+    font-size: 15px;
+}
+
+.list-foot {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 140px;
+}
+
+.list_item-foot {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item-foot:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
+.otherfoot {
+    display: none;
+}
+
+.mg {
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 830px) {
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+img, .list, .footer {
+    user-select: none;   
+}
+
+.brg-menu {
+    display: none;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-image: url(./pictures/bgimage.png);
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 625px;
+    max-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+width: 70px;
+height: 80px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    line-height: 140px;
+    color: white;
+}
+
+.list_item {
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item:hover {
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+.other {
+    display: none;
+    align-items: center;
+}
+
+.blocks {
+    margin-top: 250px;
+}
+
+.text_tennis {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.block_play {
+    display: flex;
+    margin-top: 50px;
+}
+
+.item_firt {
+width: 80px;
+height: 80px;
+}
+
+.item_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    margin-top: 260px;
+}
+
+.info_cards {
+    background-color: #8D86C9;
+    width: 235px;
+    height: 145px;
+    font-family: sans-serif;
+    color: white;
+    margin: 3px;
+    position: relative;
+}
+
+
+.exlink {
+    position: absolute;
+    right: 20px;
+    top: 30px; 
+}
+
+.inf_text {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.info_inner {
+    margin: 40px;
+}
+
+.cont {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_inner {
+    margin: 10px;
+}
+
+.imgcnt {
+    width: 225px;
+    height: 300px;
+}
+
+.pos {
+    font-size: 14px;
+    right: -50px;
+}
+
+.img-cort {
+    width: 290px;
+    height: 340px;
+}
+
+.text-cort {
+    background-color: #F7ECE1;
+    width: 450px;
+    height: 350px;  
+    padding: 40px;
+    margin-left: 20px;
+    
+}
+
+article {
+    margin-top: 100px;
+}
+
+.cardDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic-cort {
+    position: relative;
+    left: 50px;
+}
+
+
+.sport-club {
+    font-size: 22px;
+}
+
+.sport_club-text {
+    font-size: 12px;
+}
+
+h4 {
+font-size: 13px;
+}
+
+.textlb {
+    font-size: 12px;
+}
+
+.top-element {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.imgarrfirst {
+    background-color: #8D86C9;
+    width: 23px;
+    height: 23px;
+}
+
+.imgarrsec {
+    background-color: #8D86C9;
+    width: 23px;
+    height: 23px;
+}
+
+.cardcoach_block {
+    display: flex;
+}
+
+.cardcoach {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.coachimg {
+    width: 100px;
+    height: 170px;
+}
+
+.coachname {
+    font-size: 12px;
+}
+
+.aboutcoach {
+    font-size: 12px;
+}
+
+.price_amenities {
+    display: flex;
+}
+
+.priceab {
+    margin: 100px 20px 70px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.buttonpriceab {
+    padding: 0 10px 0 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstrow {
+    font-size: 20px;
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_amenities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafeblock {
+    position: relative;
+}
+
+.cafeimg {
+    width: 350px;
+    height: 367px;
+}
+
+.cafe-txt {
+    position: absolute;
+    left: 25px;
+    top: 215px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.footer {
+    
+    background-color: #F7ECE1;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.roots {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    color: #333333;
+    font-size: 15px;
+}
+
+.list-foot {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 140px;
+}
+
+.list_item-foot {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item-foot:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
+.otherfoot {
+    display: none;
+}
+
+.mg {
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 800px) {
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+img, .list, .footer {
+    user-select: none;   
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-image: url(./pictures/bgimage.png);
+    background-size: cover;
+    height: 870px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+display: none;
+width: 70px;
+height: 80px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    line-height: 140px;
+    color: white;
+}
+
+.brg-menu {
+    display: none;
+    visibility: hidden;
+    border-bottom: 17px double seashell; 
+    border-top: 6px solid seashell; 
+    content:"";
+    height: 5px; 
+    width:30px;
+    margin: 10px;
+
+}
+
+
+.blocks {
+    margin-top: 250px;
+}
+
+.text_tennis {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.block_play {
+    display: flex;
+    margin-top: 50px;
+}
+
+.item_firt {
+width: 50px;
+height: 50px;
+}
+
+.item_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    margin-top: 260px;
+}
+
+.info_cards {
+    background-color: #8D86C9;
+    width: 150px;
+    height: 125px;
+    font-family: sans-serif;
+    color: white;
+    margin: 3px;
+    position: relative;
+}
+
+
+.exlink {
+    position: absolute;
+    right: 10px;
+    top: 30px; 
+    width: 20px;
+    height: 20px;
+}
+
+.inf_text {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.info_inner {
+    margin: 40px;
+}
+
+.cont {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_inner {
+    margin: 10px;
+}
+
+.imgcnt {
+    width: 180px;
+    height: 300px;
+}
+
+.pos {
+    font-size: 12px;
+    right: -30px;
+    text-align: center;
+}
+
+.img-cort {
+    width: 250px;
+    height: 340px;
+}
+
+.text-cort {
+    background-color: #F7ECE1;
+    width: 300px;
+    height: 350px;  
+    padding: 40px;
+    margin-left: 20px;
+    
+}
+
+article {
+    margin-top: 100px;
+}
+
+.cardDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic-cort {
+    position: relative;
+    left: 50px;
+}
+
+
+.sport-club {
+    font-size: 18px;
+}
+
+.sport_club-text {
+    font-size: 10px;
+}
+
+h4 {
+font-size: 12px;
+}
+
+.textlb {
+    font-size: 9px;
+}
+
+.top-element {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.imgarrfirst {
+    background-color: #8D86C9;
+    width: 20px;
+    height: 20px;
+}
+
+.imgarrsec {
+    background-color: #8D86C9;
+    width: 20px;
+    height: 20px;
+}
+
+.cardcoach_block {
+    display: flex;
+}
+
+.cardcoach {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.coachimg {
+    width: 80px;
+    height: 170px;
+}
+
+.coachname {
+    font-size: 12px;
+    text-align: center;
+}
+
+.aboutcoach {
+    text-align: center;
+    font-size:10px;
+
+}
+
+.price_amenities {
+    display: flex;
+}
+
+.priceab {
+    margin: 100px 20px 70px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.buttonpriceab {
+    padding: 0 10px 0 10px;
+    width: 210px;
+    height: 40px;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstrow {
+    font-size: 20px;
+    margin-top: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_amenities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafeblock {
+    position: relative;
+}
+
+.cafeimg {
+    width: 300px;
+    height: 389px;
+}
+
+.cafe-txt {
+    position: absolute;
+    left: 25px;
+    top: 215px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+span {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.footer {
+    
+    background-color: #F7ECE1;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.roots {
+    display: none;  
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    color: #333333;
+    font-size: 12px;
+}
+
+.list-foot {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 140px;
+}
+
+.list_item-foot {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item-foot:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
+.otherfoot {
+    display: none;
+}
+
+.mg {
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 640px) {
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+img, .list, .footer {
+    user-select: none;   
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-image: url(./pictures/bgimage.png);
+    background-size: cover;
+    height: 870px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    max-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+display: flex;
+width: 70px;
+height: 70px;
+}
+
+.list {
+    display: none;
+    align-items: center;
+    font-size: 6px;
+    line-height: 140px;
+    color: white;
+}
+
+.brg-menu {
+    display: flex;
+    visibility: visible;
+    border-bottom: 13px double seashell; 
+    border-top: 4px solid seashell; 
+    content:"";
+    height: 5px; 
+    width:30px;
+    margin: 10px;
+
+}
+
+
+.blocks {
+    margin-top: 250px;
+}
+
+.text_tennis {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.block_play {
+    display: flex;
+    margin-top: 50px;
+}
+
+.item_firt {
+width: 50px;
+height: 50px;
+}
+
+.item_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.info {
+    display: flex;
+    margin-top: 260px;
+}
+
+.info_cards {
+    background-color: #8D86C9;
+    width: 100px;
+    height: 120px;
+    font-family: sans-serif;
+    color: white;
+    margin: 3px;
+    position: relative;
+}
+
+
+.exlink {
+    position: absolute;
+    right: 5px;
+    top: 30px; 
+    width: 15px;
+    height: 15px;
+}
+
+.inf_text {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.info_inner {
+    position: absolute;
+    right: -11px;
+    margin: 40px;
+}
+
+.cont {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_inner {
+    margin: 10px;
+}
+
+.imgcnt {
+    width: 120px;
+    height: 250px;
+}
+
+.pos {
+    font-size: 8px;
+    right: -21px;
+    text-align: center;
+}
+
+.img-cort {
+    position: absolute;
+    top: 160px;
+    left: -50px;
+    width: 400px;
+    height: 250px;
+}
+
+.text-cort {
+    background-color: #F7ECE1;
+    width: 400px;
+    height: 300px;  
+    margin: 0 auto;
+    padding: 40px;
+    
+}
+
+article {
+    margin-top: 20px;
+}
+
+.cardDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic-cort {
+    position: relative;
+    left: 50px;
+}
+
+
+.sport-club {
+    font-size: 16px;
+}
+
+.sport_club-text {
+    font-size: 10px;
+}
+
+h4 {
+font-size: 12px;
+}
+
+.textlb {
+    font-size: 9px;
+}
+
+.top-element {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.imgarrfirst {
+    background-color: #8D86C9;
+    width: 16px;
+    height: 16px;
+}
+
+.imgarrsec {
+    background-color: #8D86C9;
+    width: 16px;
+    height: 16px;
+}
+
+.cardcoach_block {
+    display: flex;
+}
+
+.cardcoach {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.coachimg {
+    width: 60px;
+    height: 100px;
+}
+
+.coachname {
+    font-size: 9px;
+    text-align: center;
+}
+
+.aboutcoach {
+    text-align: center;
+    font-size:7px;
+
+}
+
+.price_amenities {
+    display: flex;
+}
+
+.priceab {
+    margin: 100px 20px 70px 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.buttonpriceab {
+    padding: 0 10px 0 10px;
+    width: 140px;
+    height: 30px;
+    font-size: 7px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow_btn-size {
+    width: 15px;
+    height: 15px;
+}
+
+.firstrow {
+    font-size: 17px;
+    margin-top: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_amenities {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafeblock {
+    position: relative;
+}
+
+.cafeimg {
+    width: 185px;
+    height: 390px;
+}
+
+.cafe-txt {
+    position: absolute;
+    left: 15px;
+    top: 210px;
+    color: white;
+    font-weight: 700;
+    font-size: 7px;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #F7ECE1;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.roots {
+    display: none;  
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    color: #333333;
+    font-size: 12px;
+}
+
+.list-foot {
+    display: flex;
+    align-items: center;
+    font-size: 6px;
+    font-weight: 500;
+    line-height: 140px;
+}
+
+.list_item-foot {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item-foot:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
+.otherfoot {
+    display: none;
+}
+
+.mg {
+    margin-left: 10px;
+}
+
+}
+
+@media screen and (max-width: 460px) {
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+img, .list, .footer {
+    user-select: none;   
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-image: url(./pictures/bgimage.png);
+    background-size: cover;
+    height: 870px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+display: flex;
+width: 70px;
+height: 70px;
+}
+
+.list {
+    display: none;
+    align-items: center;
+    font-size: 6px;
+    line-height: 140px;
+    color: white;
+}
+
+.brg-menu {
+    display: flex;
+    visibility: visible;
+    border-bottom: 13px double seashell; 
+    border-top: 4px solid seashell; 
+    content:"";
+    height: 5px; 
+    width:30px;
+    margin: 10px;
+
+}
+
+.blocks {
+    margin-top: 270px;
+}
+
+.text_tennis {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.block_play {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.item_firt {
+width: 50px;
+height: 50px;
+}
+
+.item_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.info_cards {
+    background-color: #8D86C9;
+    width: 135px;
+    height: 135px;
+    font-family: sans-serif;
+    color: white;
+    margin: 3px;
+    position: relative;
+}
+
+
+.exlink {
+    position: absolute;
+    right: 18px;
+    top: 45px; 
+    width: 15px;
+    height: 15px;
+}
+
+.inf_text {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.info_inner {
+    position: absolute;
+    right: -8px;
+    margin: 40px;
+}
+
+.cont {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont_inner {
+    margin: 10px;
+}
+
+.imgcnt {
+    width: 220px;
+    height: 250px;
+}
+
+.pos {
+    font-size: 14px;
+    right: -40px;
+    top: -50px;
+    text-align:center;
+}
+
+.img-cort {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    width: 200px;
+    height: 250px;
+}
+
+.text-cort {
+    background-color: #F7ECE1;
+    width: 400px;
+    height: 320px;  
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+article {
+    margin-top: 20px;
+}
+
+.cardDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic-cort {
+    position: relative;
+    left: 50px;
+}
+
+
+.sport-club {
+    font-size: 15px;
+}
+
+.sport_club-text {
+    font-size: 7px;
+}
+
+h4 {
+font-size: 12px;
+}
+
+.textlb {
+    font-size: 9px;
+}
+
+.top-element {
+    margin-top: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.imgarrfirst {
+    background-color: #8D86C9;
+    width: 10px;
+    height: 10px;
+}
+
+.imgarrsec {
+    background-color: #8D86C9;
+    width: 10px;
+    height: 10px;
+}
+
+.cardcoach_block {
+    display: flex;
+}
+
+.cardcoach {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.coachimg {
+    width: 50px;
+    height: 100px;
+}
+
+.coachname {
+    font-size: 6px;
+    text-align: center;
+}
+
+.aboutcoach {
+    text-align: center;
+    font-size:6px;
+}
+
+.price_amenities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.priceab {
+    margin: 60px 125px 30px 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.buttonpriceab {
+    padding: 0 10px 0 10px;
+    width: 220px;
+    height: 20px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow_btn-size {
+    width: 12px;
+    height: 12px;
+}
+
+.firstrow {
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_amenities {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafeblock {
+    position: relative;
+}
+
+.cafeimg {
+    width: 280px;
+    height: 300px;
+}
+
+.cafe-txt {
+    position: absolute;
+    left: 15px;
+    top: 175px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #F7ECE1;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.roots {
+    display: none;  
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    color: #333333;
+    font-size: 12px;
+}
+
+.list-foot {
+    display: none;
+    align-items: center;
+    font-size: 6px;
+    font-weight: 500;
+    line-height: 140px;
+}
+
+.list_item-foot {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item-foot:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
+.otherfoot {
+    display: flex;
+}
+
+.textlb {
+    font-size: 7px;
+}
+
+.mg {
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+img, .list, .footer {
+    user-select: none;   
+}
+
+.bg {
+    background-repeat: no-repeat;
+    background-image: url(./pictures/bgimage.png);
+    background-size: cover;
+    height: 870px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg {
+display: flex;
+width: 70px;
+height: 70px;
+}
+
+.list {
+    display: none;
+    align-items: center;
+    font-size: 6px;
+    line-height: 140px;
+    color: white;
+}
+
+.brg-menu {
+    display: flex;
+    visibility: visible;
+    border-bottom: 13px double seashell; 
+    border-top: 4px solid seashell; 
+    content:"";
+    height: 5px; 
+    width:30px;
+    margin: 10px;
+
+}
+
+
+.blocks {
+    margin-top: 270px;
+}
+
+.text_tennis {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.block_play {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.item_firt {
+width: 50px;
+height: 50px;
+}
+
+.item_second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 400px;
+}
+
+.info_cards {
+    background-color: #8D86C9;
+    width: 135px;
+    height: 135px;
+    font-family: sans-serif;
+    color: white;
+    margin: 3px;
+    position: relative;
+}
+
+
+.exlink {
+    position: absolute;
+    right: 18px;
+    top: 45px; 
+    width: 15px;
+    height: 15px;
+}
+
+.inf_text {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.info_inner {
+    position: absolute;
+    right: -8px;
+    margin: 40px;
+}
+
+.cont {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont_inner {
+    margin: 10px;
+}
+
+.imgcnt {
+    width: 220px;
+    height: 250px;
+}
+
+.pos {
+    font-size: 14px;
+    right: -40px;
+    top: -50px;
+    text-align:center;
+}
+
+.img-cort {
+    display: none;
+    position: absolute;
+    top: 160px;
+    left: -20px;
+    width: 170px;
+    height: 250px;
+}
+
+.text-cort {
+    background-color: #F7ECE1;
+    width: 400px;
+    height: 370px;  
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+article {
+    margin-top: 20px;
+}
+
+.cardDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pic-cort {
+    position: relative;
+    left: 50px;
+}
+
+
+.sport-club {
+    font-size: 15px;
+}
+
+.sport_club-text {
+    font-size: 10px;
+}
+
+h4 {
+font-size: 12px;
+}
+
+.textlb {
+    font-size: 9px;
+}
+
+.top-element {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.imgarrfirst {
+    background-color: #8D86C9;
+    width: 10px;
+    height: 10px;
+}
+
+.imgarrsec {
+    background-color: #8D86C9;
+    width: 10px;
+    height: 10px;
+}
+
+.cardcoach_block {
+    display: flex;
+}
+
+.cardcoach {
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.coachimg {
+    width: 50px;
+    height: 100px;
+}
+
+.coachname {
+    font-size: 6px;
+    text-align: center;
+}
+
+.aboutcoach {
+    text-align: center;
+    font-size:6px;
+}
+
+.price_amenities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.priceab {
+    margin: 60px 125px 30px 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.buttonpriceab {
+    padding: 0 10px 0 10px;
+    width: 220px;
+    height: 20px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.arrow_btn-size {
+    width: 12px;
+    height: 12px;
+}
+
+.firstrow {
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_amenities {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cafeblock {
+    position: relative;
+}
+
+.cafeimg {
+    width: 280px;
+    height: 300px;
+}
+
+.cafe-txt {
+    position: absolute;
+    left: 15px;
+    top: 175px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #F7ECE1;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+}
+
+.roots {
+    display: none;  
+    align-items: center;
+    justify-content: center;
+    opacity: 0.3;
+    color: #333333;
+    font-size: 12px;
+}
+
+.list-foot {
+    display: none;
+    align-items: center;
+}
+
+.list_item-foot {
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    font-family: sans-serif;
+    transition: ease 0.01s;
+}
+
+.list_item-foot:hover {
+    cursor: pointer;
+    color: darkorchid;
+}
+
+.otherfoot {
+    display: flex;
+}
+
+.mg {
+    margin-left: 10px;
+    width: 15px;
+    height:15px;
+}
+}
+
+
